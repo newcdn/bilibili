@@ -1,0 +1,50 @@
+.head{background-color: hsla(0, 0%, 100%, 0.69);box-shadow: 1px 1px 3px 1px hsla(0, 0%, 100%, 0.69);}
+input{outline:none;}
+input:-webkit-autofill { box-shadow: 0 0 0px 1000px white inset;}
+body{background: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519205555.jpg)top fixed no-repeat;}
+.navbar-brand{font-size: 25px;line-height: 20px;font-weight: bold;}
+.bd{background-color: hsla(0, 0%, 100%, 0.69);height: 100%;border-radius: 5px;padding: 45px;}
+.wrapper{width: 900px;margin: 0 auto;}
+.container{width: 970px!important;margin: 0 auto;}
+h2{text-align: center;margin: 30px;}
+th,td{text-align: center;}
+td a{padding: 3px 5px;border: 1px solid #337ab7;border-radius: 4px;background-color: #337ab7;margin-right: 5px;color: #fff;}
+td a:hover{color: #000;background-color: #fff;border: 1px solid #337ab7;text-decoration: none;}
+.all{-position: absolute;padding: 7px 14px;margin-top: -20px;border-color: #ffffff;background-color: #fff;color: #000;width: 900px;}
+.so{padding: 10px 12px;margin-top: -20px;border-color: #ffffff;}
+.so .text{width: 175px;height: 30px;border-radius: 4px 0px 0px 4px;border: 1px solid #ddd;padding: 10px;}
+.so .submit{color: #fff;background-color: #337ab7;border: 0;width: 50px;height: 30px;border-radius: 0px 4px 4px 0px;}
+#footer{-color: white;-background-color: #000000;-border-top: 1px solid #ccc;padding: 20px;text-align: center;}
+.navbar-nav>li:hover>a{background-color: hsla(0, 0%, 100%, 0.69)!important;border-radius: 4px;}
+.pager li>input{display: inline-block;padding: 5px 14px;background-color: #fff;border: 1px solid #ddd;border-radius: 15px;}
+.panel-primary>.panel-heading{color: #fff;background-color: hsla(205, 69%, 66%, 0.69);border-color: hsla(205, 69%, 66%, 0);border-radius: 4px 4px 0px 0px;/* opacity: 1.8; */}
+.panel-primary{border-color: hsla(205, 69%, 66%, 0.69);    background-color: hsla(0, 0%, 100%, .69);}
+td a{padding: 3px 5px;border: 1px solid #6cb2e4;border-radius: 4px;background-color: #6cb2e4;margin-right: 5px;color: #fff;}
+@-webkit-keyframes fastr-20{0%{opacity:0;transform:translate(0,-60px);}
+100%{opacity:1;transform:translate(0,0);}}
+@-webkit-keyframes fastr1-20{0%{opacity:0;transform:translate(0,60px);}
+100%{opacity:1;transform:translate(0,0);}}
+.headnav{animation: fastr-20 5.5s;-webkit-animation: fastr-20 0.5s;-moz-animation: fastr-20 0.5s;}
+.wrapper,.block{animation: fastr1-20 5.5s;-webkit-animation: fastr1-20 0.5s;-moz-animation: fastr1-20 0.5s;}
+.btn-primary {color: #fff; background-color: hsla(208, 56%, 46%, .69);border-color: rgba(46, 109, 164, 0);}
+.block-title h2{
+    text-align: left;
+    color: #635064;
+    margin: 20px;
+}
+.block{
+    height: auto;
+    background-color: hsla(0, 0%, 100%, .69);
+    padding: 25px;
+    border-radius: 5px;
+}
+td .color{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(0,0,0,.3);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+}
