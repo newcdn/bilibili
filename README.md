@@ -14,6 +14,7 @@
 5. 播放器功能可后台设置
 
 # 参数说明（player/index.php）
+``` 
 "av":'<?php echo($_GET['av']);?>',//B站av号，用于调用弹幕
 "url":"<?php echo($_GET['url']);?>",//视频链接
 "id":"<?php echo($_GET['url']);?>",//视频id
@@ -23,7 +24,7 @@
 "next":"<?php echo($_GET['next']);?>",//下一集链接
 "user": '<?php echo($_GET['user']);?>',//用户名
 "group": "<?php echo($_GET['group']);?>",//用户组
-
+```
 # 请求示例
 #### 基本
 http://localhost/player/?url=https://cdn.jsdelivr.net/gh/MoGuJ/Video-Bed/Your.Name/playlist.m3u8
