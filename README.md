@@ -27,9 +27,9 @@
 ```
 # 请求示例
 #### 基本
-http://localhost/player/?url=https://cdn.jsdelivr.net/gh/MoGuJ/Video-Bed/Your.Name/playlist.m3u8
+http://localhost/player/?url=https://cdn.jsdelivr.net/gh/xxx/Video-Bed/Your.Name/playlist.m3u8
 
 #### 高级
 除了 url 参数，其他都可以省略
 
-http://localhost/player/?url=https://cdn.jsdelivr.net/gh/MoGuJ/Video-Bed/Your.Name/playlist.m3u8&next=https://cdn.jsdelivr.net/gh/MoGuJ/Video-Bed/Your.Name/playlist.m3u8&sid=1&pic=https://img.xx.com/1.png&user=游客&group=1&name=测试
+http://localhost/player/?url=https://cdn.jsdelivr.net/gh/xxx/Video-Bed/Your.Name/playlist.m3u8&next=https://cdn.jsdelivr.net/gh/xxx/Video-Bed/Your.Name/playlist.m3u8&sid=1&pic=https://img.xx.com/1.png&user=游客&group=1&name=测试
