@@ -36,3 +36,4 @@ http://localhost/player/?url=https://cdn.jsdelivr.net/gh/xxx/Video-Bed/Your.Name
 
 # 捐赠链接
 <img src="https://img.ssss.loan/pos.png" alt="捐赠" width="300" title="捐赠二维码">
+<img src="https://img.ssss.loan/ipos.png" alt="捐赠" width="300" title="捐赠二维码">
